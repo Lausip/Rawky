@@ -1,5 +1,5 @@
 /* SECCIONES */
-.home ,.quienesSomos,.productos{
+.home ,.quienesSomos,.productos, .contacto{
     background-color: #ffffff;
     min-height: 100vh;
     display: flex;
@@ -23,9 +23,15 @@ section:nth-child(odd){
     z-index: 2;
 
 }
-p{
+.home p{
     font-size: 10px;
 }
-h1{
-    font-size: 20px;
+.home h1{
+    font-size: 40px;
+}
+.home  img{
+    width: 30%;
+    height: 30%;
+    text-align:center;
+
 }
